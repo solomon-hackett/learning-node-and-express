@@ -1,7 +1,7 @@
 //imports
 const express = require("express");
 const app = express();
-
+//this is a test
 //app wide middleware
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
